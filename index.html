@@ -7,8 +7,9 @@
         
     </head>
     <body>
-        <h1>会议预定</h1>
-        <form id="meeting-form">
+        <div id="root">
+            <h1>会议预定</h1>
+            <form id="meeting-form">
             <label for="start-time">会议开始时间:</label><br>
             <input type="datetime-local" id="start-time" name="start-time" required><br><br>
 
@@ -22,7 +23,8 @@
             <input type="text" id="organizer-name" name="organizer-name" required><br><br>
 
             <input type="submit" value="提交">
-        </form>
+            </form>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
