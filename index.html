@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>会议预定</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <h1>会议预定</h1>
+        <form id="meeting-form">
+            <label for="start-time">会议开始时间:</label><br>
+            <input type="datetime-local" id="start-time" name="start-time" required><br><br>
+
+            <label for="end-time">会议结束时间:</label><br>
+            <input type="datetime-local" id="end-time" name="end-time" required><br><br>
+
+            <label for="meeting-topic">会议主题:</label><br>
+            <input type="text" id="meeting-topic" name="meeting-topic" required><br><br>
+
+            <label for="organizer-name">预定人姓名:</label><br>
+            <input type="text" id="organizer-name" name="organizer-name" required><br><br>
+
+            <input type="submit" value="提交">
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
